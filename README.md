@@ -1,6 +1,7 @@
 Get the install file onto your server:
 
 $ wget https://github.com/Carbon-Reduction-Initiative/mn-install/blob/master/cari-install.sh
+
 $ bash cari-install.sh
 
 wait at step masternode private key
