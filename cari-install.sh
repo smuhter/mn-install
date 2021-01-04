@@ -6,14 +6,14 @@ CONFIGFOLDER='/root/.cari'
 COIN_DAEMON='carid'
 COIN_CLI='cari-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/Carbon-Reduction-Initiative/CARI/releases/download/CARIv1.0.2/CARI-v1.0.2-linux-ubuntu18.tar.gz'
+COIN_TGZ='https://github.com/Carbon-Reduction-Initiative/CARI/releases/download/CARIv1.1.0/CARI-v1.1.0-linux-ubuntu18.tar.gz'
 
 
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='Cari'
 COIN_PORT=31813
 RPC_PORT=31812
-LATEST_VERSION=1000200
+LATEST_VERSION=1010000
 
 NODEIP=$(curl -s4 api.ipify.org)
 
