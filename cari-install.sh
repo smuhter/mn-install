@@ -6,7 +6,7 @@ CONFIGFOLDER='/root/.cari'
 COIN_DAEMON='carid'
 COIN_CLI='cari-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_TGZ='https://github.com/Carbon-Reduction-Initiative/CARI/releases/download/CARIv1.1.0/CARI-v1.1.0-linux-ubuntu18.tar.gz'
+COIN_TGZ='https://github.com/Carbon-Reduction-Initiative/CARI/releases/download/CARIv1.1.0/CARI-v1.1.0-linux-ubuntu16.tar.gz'
 
 
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
